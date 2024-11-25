@@ -1,0 +1,6 @@
+/*este scss es para el layout general*/
+@use "globals" as globals;
+
+body{
+    background-color: globals.$bg-color-red;
+}

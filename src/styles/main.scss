@@ -1,5 +1,2 @@
-$bg-color-red: red;
-
-body{
-    background-color: $bg-color-red;
-}
+/*Debe llevar el import de todos los parciales*/
+@use "layout";
