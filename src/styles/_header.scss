@@ -1,0 +1,6 @@
+/*este scss es para el layout general*/
+@use "globals" as *;
+
+header{
+    background-color: $primary-black;
+}
