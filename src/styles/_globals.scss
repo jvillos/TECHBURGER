@@ -13,10 +13,10 @@ html {
   }
   
   body {
-    font-family: $font-stack; // Usar la variable definida en _variables.scss
+    font-family: $fonts-parrafos; // Usar la variable definida en _variables.scss
     line-height: 1.5;
-    background-color: $neutral-color;
-    color: $primary-color;
+    background-color: $primary-bggrey;
+    color: $primary-black;
     margin: 0;
     padding: 0;
   }
