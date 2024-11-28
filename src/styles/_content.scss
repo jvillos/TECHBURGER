@@ -1,2 +1,8 @@
 //aquí desarrollaré el main con sus secciones
 @use "globals" as *;
+
+.portada{
+    background-image: url(../assets/img/portada.jpg);
+    background-position: center;
+    background-size: cover;
+}

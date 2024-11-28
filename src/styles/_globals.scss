@@ -1,2 +1,22 @@
 @forward "variables";
 @forward "mixins";
+
+html {
+    font-size: 16px; // Tamaño base
+    box-sizing: border-box; // Incluir padding y bordes en las dimensiones
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit; // Propagar box-sizing a todos los elementos
+  }
+  
+  body {
+    font-family: $font-stack; // Usar la variable definida en _variables.scss
+    line-height: 1.5;
+    background-color: $neutral-color;
+    color: $primary-color;
+    margin: 0;
+    padding: 0;
+  }
