@@ -26,26 +26,39 @@ $color-cards: $primary-black;
 $color-button: $primary-white;
 $color-footer-icons: $primary-white;
 
-/* Typography */
-$size-h1: 68px;
-$size-h2: 42px;
-$size-h3: 26px;
-$size-paragraph: 16px;
-$size-caption: 12px;
-$lineheight-h1: 72px;
-$lineheight-h2: 48px;
-$lineheight-h3: 48px;
-$lineheight-paragraph: 24px;
-$lineheight-caption: 16px;
-$fonts-titulos: Montserrat;
-$fonts-parrafos: Roboto;
+ /* TYPOGRAPHY */
+ $size-h1: 68px;
+ $size-h1-rem: 4.25rem;
+ $size-h2: 42px;
+ $size-h2-rem: 2.625rem;
+ $size-h3: 26px;
+ $size-h3-rem: 1.625rem;
+ $size-paragraph: 16px;
+ $size-paragraph-rem: 1rem;
+ $size-caption: 12px;
+ $size-caption-rem: 0.75rem;
+ $lineheight-h1: 72px;
+ $lineheight-h1-rem: 4.5rem;
+ $lineheight-h2: 48px;
+ $lineheight-h2-rem: 3rem;
+ $lineheight-h3: 48px;
+ $lineheight-h3-rem: 3rem;
+ $lineheight-paragraph: 24px;
+ $lineheight-paragraph-rem: 1.5rem;
+ $lineheight-caption: 16px;
+ $lineheight-caption-rem: 1rem;
+ $fonts-titulos: "Montserrat";
+ $fonts-parrafos: "Roboto";
 
-/* Icons */
-$size-default: 50px;
-$size-small: 30px;
+ /* ICONS */
+ $size-default: 50px;
+ $size-default-rem: 3.125rem;
+ $size-small: 30px;
+ $size-small-rem: 1.875rem;
 
-/* Angles */
-$angle1: 5px;
+ /* ANGLES */
+ $angle1: 5px;
+ $angle1-rem: 0.3125rem;
 
 /* Variables para responsivo. Por defecto*/
 $breakpoints: (
