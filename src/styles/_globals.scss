@@ -1,22 +1,2 @@
 @forward "variables";
 @forward "mixins";
-
-html {
-    font-size: 16px; // Tamaño base
-    box-sizing: border-box; // Incluir padding y bordes en las dimensiones
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit; // Propagar box-sizing a todos los elementos
-  }
-  
-  body {
-    font-family: $fonts-parrafos; // Usar la variable definida en _variables.scss
-    line-height: 1.5;
-    background-color: $primary-bggrey;
-    color: $primary-black;
-    margin: 0;
-    padding: 0;
-  }

@@ -1,39 +1,81 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/main.scss">
-    <title>Vite App</title>
-  </head>
-  <body>
-    <header>
-          <div class="grid-container">
-            <div><img src="assets/img/logo-grande.png" alt="" width=""></div>
-            <div></div>
-          </div>
-    </header>
-    <main class="container">
-      <!-- Portada -->
-      <section class="portada">
-        <h1>
-          ¡PRUEBA NUESTRAS HAMBUERGUESAS!
-        </h1>
-        <div class="container">
-          
-        </div>
-      </section>
 
-      <!-- Cards -->
-      <section>
-      
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/main.scss">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Vite App</title>
+</head>
 
-    </main>
-    <footer>
+<body>
+  <header>
+    <div class="container">
+      <div><img src="assets/img/logo-grande.png" alt="" width=""></div>
+      <nav>
+        <ul>
+          <li><a href="index.html"><img src="assets/icons/home.svg" alt=""> INICIO</a></li>
+          <li><a href="#">CARTA</a></li>
+          <li><a href="formulario.html">REGISTRO</a></li>
+          <li><a href="#"><button class="btn btn-naranja">PEDIR A DOMICILIO</button></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <!-- Portada -->
+    <section class="portada">
+      <h1>
+        ¡PRUEBA NUESTRAS HAMBUERGUESAS!
+      </h1>
+      <div class="container">
+        <p>¿Estás listo para probar la mejor hamburguesa de la ciudad? En TechBurger llevamos tu experiencia al
+          siguiente nivel. Nuestras hamburguesas están hechas con carne 100% de res, ingredientes frescos y una
+          combinación de sabores irresistibles que te harán volver por más.</p>
+        <a href="#"><button class="btn btn-naranja">DÓNDE ENCONTRARNOS</button></a>
+      </div>
+    </section>
 
-    </footer>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+    <!-- Cards -->
+    <section>
+      <div class="card">
+        <img src="assets/img/card1.jpg" alt="" />
+        <h4>Vacuno de vacas felices</h4>
+        <p>Carne de la mejor calidad procedente de las praderas asturianas. ¡No probaras carne igual! El bienestar del
+          animal es fundamental para conseguir un buen sabor.</p>
+        <a href="#"><button class="btn btn-naranja">SABER MAS</button></a>
+      </div>
+      <div class="card">
+        <img src="assets/img/card2.jpg" alt="" />
+        <h4>Nuevas aperturas</h4>
+        <p>Encuéntranos en Toledo, Madrid, Segovia, Cuenca y Leganés. ¡Ven a visitarnos! Próximamente nos podrás
+          encontrar en Lugo y Gijón. ¡No esperes más!</p>
+          <a href="#"><button class="btn btn-naranja">SABER MAS</button></a>
+      </div>
+      <div class="card">
+        <img src="assets/img/card3.jpg" alt="" />
+        <h4>¡Nueva TechTechBurger!</h4>
+        <p>Prueba nuestra nueva hamburguesa TechTechBurger. ¡Ahora más tech que nunca!</p>
+        <a href="#"><button class="btn btn-naranja">SABER MAS</button></a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div>
+
+    </div>
+    <div>
+      <div><a href="#"><button class="btn btn-naranja">SABER MAS</button></a></div>
+      <div>
+        <img src="assets/icons/fb.svg" alt="">
+        <img src="assets/icons/x.svg" alt="">
+        <img src="assets/icons/instagram.svg" alt="">
+      </div>
+    </div>
+  </footer>
+  <div id="app"></div>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>

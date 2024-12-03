@@ -7,8 +7,32 @@
     padding: 0;
 }
 
+html {
+    font-size: 16px; // Tamaño base
+    box-sizing: border-box; 
+}
+  
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $fonts-parrafos;
+  line-height: 1.5;
+  background-color: $primary-bggrey;
+  color: $primary-black;
+  margin: 0;
+  padding: 0;
+}
 
 .container{
     width: $container-width;
     margin: 0 , auto;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
 }

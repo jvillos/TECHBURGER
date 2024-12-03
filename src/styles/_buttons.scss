@@ -1,2 +1,17 @@
 /*este scss es para el layout general*/
-@use "globals" as globals;
+@use "globals" as *;
+
+.btn {
+    border: none;
+    border-radius: $angle1-rem;
+    padding: 6px 20px;
+    font-size: $size-paragraph-rem;
+    color: $primary-white;
+}
+
+.btn-naranja {
+    background-color: $secondary-default;
+}
+.btn-naranja:hover{
+    background-color: $secondary-hover;
+}
