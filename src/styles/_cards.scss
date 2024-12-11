@@ -1,2 +1,109 @@
-/*este scss es para el layout general*/
+/*este scss es para el layout general
 @use "globals" as *;
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+  
+  .card img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+  }
+  
+  .card h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+  }*/
+  @use "globals" as *;
+@use "mixins" as *;
+
+.card {
+  background-color: $primary-white;
+  border-radius: $angle1-rem;
+  overflow: hidden;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .card-text{
+    padding: 1rem;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid $primary-bggrey;
+  }
+
+  h3 {
+    font-size: $size-h3-rem;
+    line-height: $lineheight-h3-rem;
+    margin: 20px 0;
+    color: $primary-black;
+  }
+
+  p {
+    font-size: $size-paragraph-rem;
+    line-height: $lineheight-paragraph-rem;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    color: $primary-black;
+  }
+
+
+  @include respond-to(medium) {
+    max-width: 250px;
+    margin: 10px auto;
+
+    h4 {
+      font-size: $size-h3-rem * 0.9;
+    }
+
+    p {
+      font-size: $size-paragraph-rem * 0.9;
+    }
+
+    button {
+      font-size: $size-paragraph-rem * 0.9;
+    }
+  }
+
+  @include respond-to(small) {
+    max-width: 100%;
+
+    img {
+      height: auto;
+    }
+
+    h4 {
+      font-size: $size-h3-rem * 0.8;
+    }
+
+    p {
+      font-size: $size-paragraph-rem * 0.8;
+      padding: 0 10px;
+    }
+
+    button {
+      font-size: $size-paragraph-rem * 0.8;
+    }
+  }
+}
+
+

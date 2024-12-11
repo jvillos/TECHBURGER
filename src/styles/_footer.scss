@@ -1,7 +1,18 @@
 /*este scss es para el layout general*/
 @use "globals" as *;
 
-footer{
+footer {
     background-color: $primary-black;
     color: $primary-white;
+    padding: 20px 0;
+    text-align: center;
+
+    .btn {
+        margin-bottom: 20px;
+    }
+
+    img {
+        margin: 0 10px;
+        width: 30px;
+    }
 }

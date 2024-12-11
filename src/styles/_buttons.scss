@@ -11,7 +11,8 @@
 
 .btn-naranja {
     background-color: $secondary-default;
-}
-.btn-naranja:hover{
-    background-color: $secondary-hover;
+
+    &:hover {
+        background-color: $secondary-hover;
+    }
 }

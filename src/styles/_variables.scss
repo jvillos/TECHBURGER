@@ -62,9 +62,10 @@ $color-footer-icons: $primary-white;
 
 /* Variables para responsivo. Por defecto*/
 $breakpoints: (
-  "medium": "min-width: 800px",
-  "large": "min-width: 1000px",
-  "huge": "min-width: 1200px",
+  small: "max-width: 600px",
+  medium: "max-width: 768px",
+  large: "max-width: 1024px",
+  xlarge: "max-width: 1200px"
 );
 
 /*Sizes*/

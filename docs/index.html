@@ -1,33 +1,87 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <script type="module" crossorigin src="/assets/index-BxT-kHve.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-ClEuSRNY.css">
-  </head>
-  <body>
-    <header>
-          <div class="grid-container">
-            
-          </div>
-    </header>
-    <main class="container">
-      <!-- Portada -->
-      <section>
-        
-      </section>
 
-      <!-- Cards -->
-      <section>
-      
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Vite App</title>
+  <script type="module" crossorigin src="/TECHBURGER/assets/index-DoXyU67A.js"></script>
+  <link rel="stylesheet" crossorigin href="/TECHBURGER/assets/index-CsO3c4Ew.css">
+</head>
 
-    </main>
-    <footer>
+<body>
+  <header>
+    <div class="container">
+      <div><img src="/TECHBURGER/assets/logo-grande-Cf4OS_mK.png" alt="" width="200px"></div>
+      <nav>
+        <ul>
+          <li><a href="index.html"><!--<img src="assets/icons/home.svg" alt="">--> INICIO</a></li>
+          <li><a href="#">CARTA</a></li>
+          <li><a href="formulario.html">REGISTRO</a></li>
+          <li><a href="#"><button class="btn btn-naranja">PEDIR A DOMICILIO</button></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!-- Portada -->
+    <section class="portada">
+      <h1>¡PRUEBA NUESTRAS <br>HAMBUERGUESAS!</h1>
+      <div class="container">
+        <h3>¿Estás listo para probar la mejor hamburguesa de la ciudad? En TechBurger llevamos tu experiencia al
+          siguiente nivel. Nuestras hamburguesas están hechas con carne 100% de res, ingredientes frescos y una
+          combinación de sabores irresistibles que te harán volver por más.</h3>
+        <a href="#"><button class="btn btn-naranja">DÓNDE ENCONTRARNOS</button></a>
+      </div>
 
-    </footer>
-    <div id="app"></div>
-  </body>
+
+    </section>
+
+    <!-- Cards -->
+    <section class="cards-container">
+      <div class="card">
+        <img src="/TECHBURGER/assets/card1-FUaUOpkT.jpg" alt="" />
+        <h3>Vacuno de vacas felices</h3>
+        <div class="card-text">
+          <p>Carne de la mejor calidad procedente de las praderas asturianas. ¡No probaras carne igual! El bienestar del
+            animal es fundamental para conseguir un buen sabor.</p>
+          <a href="#"><button class="btn btn-naranja">SABER MAS</button></a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/TECHBURGER/assets/card2-Cm9p27wu.jpg" alt="" />
+        <div class="card-text">
+          <h3>Nuevas aperturas</h3>
+          <p>Encuéntranos en Toledo, Madrid, Segovia, Cuenca y Leganés. ¡Ven a visitarnos! Próximamente nos podrás
+            encontrar en Lugo y Gijón. ¡No esperes más!</p>
+          <a href="#"><button class="btn btn-naranja">SABER MAS</button></a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="/TECHBURGER/assets/card3-CGcHiNlJ.jpg" alt="" />
+        <div class="card-text">
+          <h3>¡Nueva TechTechBurger!</h3>
+          <p>Prueba nuestra nueva hamburguesa TechTechBurger. ¡Ahora más tech que nunca!</p>
+          <a href="#"><button class="btn btn-naranja">SABER MAS</button></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div>
+      <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAqqSURBVHgB7VlLbB1XGf7OzNy3r9+v+J1gp3Fat4GW1pSmVEioDRVIdNeWJZuKJSyQYIGQkNigrkFCYgGooqWLBFRCVZqqFNM2SuOgunHeD8ex42f8uO+Z6fefmet7fT22b+Kqsaoe6fiOz5lzzv/+v/+MAuDiC9AMfEHal4zstmZhh82kKEIKiJgKYZPP7IahPAkpv5c9O47nlAX+ZvIu8rb36+zQU++YEYvE1IaAjrjCgToDAw0GGmIcixqIhxVi7CY5s4Q701ugyKTmjL8FcuPwOUMGlshAxnYxu+Liwi0b4zcLuDZrYznlIF+4I7KqZ0QE2kgiDzcrPN1h4P5GA+01CvVxA0uUZobzbUkT8ajyVGQJwQrzeQdZV6G1zkQ46o1Lz5OZW6suXDLbwLmlPP9fcXBlxsFr/03hndEs5pYduFVqSmT2y+1ekrMPJBV+1KfwUr+Jx1sNdNUYqIsYMCmKk7MOTpKA7lqOkViXRIoWhJGRazZOTznY22QiIXOKGuOGWWrkX2N5XOba/R0WmutNtDaa2N8TwqODEdTXmphdcjC/ZGtz3DEjwsQTjQo/6zfwXIeJPQmF6ZyLYzcdpB2FTmGIWukiE218nky7+Ot4ARYZaUsaSMYUuhtMNPN5nEQf/TiHuoSBJhLawPd7Wiw00kRHrxfwLuea6rlXq4Wh/jAG94YwveDg2nRhW2a2ZERM+/E6hV8NGJqZRNizd4dSzbM30S+aSGgyQrMjMxZ9RxkGMmSwg8Q1kOBajjeSYIuaI/96bTcln+R4Q9LrFqWVpr/I3p3NNM+YgUhEoWdPSDN0bqKAG7e21oyY/qZWuI9O/Gtq4kibQjRUsn2xa5vhSvHZDCvP0yxD/7ri0OxGyDMhWaMs7x0xNdv01hihkr9of+K4zS0q5wpk/O3RNH7y8jzOXSts6jOb5hEKDD+gY3+rHohWvKWUR7cZsFrmQoanzbXQWzxMQrUwqQIIUcFzFoU2PBTF80eSqEtunvaMzQYfSHiM1FsK97rV0NSefyaBR+6PaGEEtcDhGKXwvUbgYHx3pH7Rcs8eC98ZjiGZCKYocJTpAI8x3EbuvTLWmmji8NeiOkwHzgcNMnCgK+zb+S5qXW0W2klcoI8FLeiN0i53IZyMMur0dloM8RvnAiFKs+VpY0Ooc1EK1u4d/B/Ug/bEJnN+F/NqZOINMpRARk6ngDcWXHQyj3jAz//V3fVipeWsAUFv3PHGfaDojfv/r3tPBTyXv+vnpTKgqTv3nF6wMXouF4iUAxOi5LjuqJc/ZBFzLjGS97bkDoki0h0O2MVdfBoEwntzHjR3/TmlvBxhmN6Bjt/X5mRfo6QIhwtdlJ0piDkLTM4UkM661WlEotYQQ2+YJ48SoV4ifiKCADEiBmsVhuqVpvosYe/Hi8RcBS8JthGHHSKgFLgyueoQLNqY51ox0VpCmcF2E/3EVqmCizMTNiYWCqxFKDAGlsHuEA50hogCgLPM4GPXckjnuC//72Pofei+iC4N3v6A52Xt6hgZYjL8eTexFFVzMa/wx2kXl4nTHyTueqGHDlfnpfUZEvT6dUej317OfXdfCAfJiDjlMs8ambTxxsU8VknsM4MhPLU/jCZCdoHw52dsHB/L4f+TBaLfEF58KobO1pCGMzcWbfztPym8fzaHrnYLP3y2BoPEXGnuk846+PuJFGynCtPaR7N6qZ1xu0FhgM61xDGCUAJEAXPQTMWpnh4Sn+UWUo/EwgZiXLdkK0xR9V0suAT8LZFZQcktZJ4ywfVlV+cCQbx52ZfvxuMmagQ533aQofp6yZjIfIr/R7hHc4uJq2T8w7EsfvfqMs6MZzf4SSAj4ltN1FU3if5+i4EnW6CR7zx3f2seOEENmLTrw+0Gnu0jEaIBMjoybeOt6zZmSVwviX26P4QHO02Nii8tujhKDZxj3VLP7Dw8YOHJAxG0kOEl2v47Z7M4wfpkOePim0NhHHksRkhvajP8YDyHo++mcJEoeI4SzdsbfWRL9CuTSbFRRq962ucNHijSTvllaIIE3kfJJsnkAjH6VUp7Kec5uYDKRkqzi1qz6E83Wf1NLTu6RhenT0Q8ON/K9XP0w6sscVfSjl4b51xHk1doydh1Qvgl+px9tzC+2Kh5HcFWSESuYrNkWIICbZdz4vTluUc0Gw95USnFaFGoWBvjWqnzxfZTFZEoTAHGeWiO69I5d9uSN5ARSQMD1MLDxFty0QA/pEoJK7GddwOYpJ+cpwZmMq6+SLDdYIkUk9dmdIi2hGjxoX2MTn2EITFGOCVnGl74lr5KRk8zh4xdyiOfrzL89tI3ftFFH5CqMFIsnEqJKccDmJswyfA4Mkcbpt1foMdPMdTezq6/2glkTm5iWL93sATupSM/Ql8aZp3ey/Dc0iiXFIZ/nn8uzTrLTT86V8BPfzuHsYu56hj5KsPvE7VAq9YGStnZ8nqCvYFOsNeSvAG8eICRbIWIYN7Bh7ccjM05uMyLg5TvL8KM+EWMBPXx9mWQeOmhXosOH9bENzBxJVg0mSGjJLTyznVy5tcfMPGNQxGMX8nBtqtgRJByuArQKGZTw0NqLOiLhod5OfEc/eQGNXOJjv0ek97ZOc/B+1tNDPMy4WCXpbUg1V6UwcArlX2osE2Tul/WBb1qbUrhHTYNibhbO02xjTchEna/TZMRf5JaXRy3VmqcqKmztwqpz7RqC2Sk2kuxoKZxGDx40xz3pF28fPAkj7sSlKZrC9oCZTKd3xhmd0PL0edmF4JvHwM1cpKOe4ww/gjtJarloLDmtcIgYYiOt5IYQ/7/BbcE97X03bUop8yi48KD//rZLYuERul9vb7sf1mjoxbw5vsZ/O9MJvB+KzCP6HtebvAVIuCGkJdDPJPwTcNAyUSK3VAVY6rsPbX9uIGSw1fsJQTeprNdIkSZXQy+qAvUiAhKblJWKfG0aGLtQLfEadHQKwlaG3PL5srXuesZRvlzxT5GaV7IiEa8esdxqkyIgn4Fxg/EUYrlxYquWL2VV4EyJpVRsYosm1N6zChbX7GHUbkf1j+bpfMniIB/84dFnPoku0ErgYx0hr2E2BErJiR/w1C5rRtlSQtrV6Ybklll1NriPax7b31ClPGeLhd9LL4+IiOVLTBqXckI/Nj5V6TPskmkmmSZcP5qLtBHAhmZZPh9ZYYfXgq749u1MDFPyPPamyu4yooyiKZARiTUvT4H/IUl7nz+3jNze9XGq8dX8co/V3RdEtSCMzv7TQLMl2+4uMLM+OM+AsQkszU+v6Y/mDI3TdLBf39sBX8+voIpFl+bZXZrq41myMyfbrq4mHHwQpeBR3mx3VPH25S7xRhVNgGZE7z2eY+l8T9G0vj3qTRu84PpVpYRmBArmwSOdsbwg7yIGOanhkOsU3r46UyufxLEU4YfLpX+qIP10SpUntmV/hDk+u/Ir2vImKHB5SzNZoLXS6NX8hj5JIdTF3KY4wVENuduS2RVjBRf1KUr43kri6JGotwa2lo7GZEPoFKy1nAsXES1hv9sYu3zNC9T9P2Y/nTHXyl/l3NSIru4RWdeTLnsjv5uuMJSoGC7Vftn1Yxs1iw/10k+1MiirFgoQptyQ9SuWoRt/CMXCt6vuzPUjd0RYXfcduHHg7trXzKy29qnA4e0RMIL1IkAAAAASUVORK5CYII=" alt=""></a>
+    </div>
+    <div>
+      <div><a href="#"><button class="btn btn-naranja">SABER MAS</button></a></div>
+      <div>
+        <img src="data:image/svg+xml,%3csvg%20width='50'%20height='51'%20viewBox='0%200%2050%2051'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M50%2025.5C50%2011.6914%2038.8086%200.5%2025%200.5C11.1914%200.5%200%2011.6914%200%2025.5C0%2037.2188%208.07617%2047.0625%2018.9648%2049.7676V33.1367H13.8086V25.5H18.9648V22.209C18.9648%2013.7031%2022.8125%209.75781%2031.1719%209.75781C32.7539%209.75781%2035.4883%2010.0703%2036.6113%2010.3828V17.2969C36.0254%2017.2383%2035%2017.1992%2033.7207%2017.1992C29.6191%2017.1992%2028.0371%2018.752%2028.0371%2022.7852V25.5H36.2012L34.7949%2033.1367H28.0273V50.3145C40.4102%2048.8203%2050%2038.2832%2050%2025.5Z'%20fill='black'/%3e%3c/svg%3e" alt="">
+        <img src="data:image/svg+xml,%3csvg%20width='46'%20height='41'%20viewBox='0%200%2046%2041'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M9.99218%200.1875H3.09765L18.1562%2017.3945L0.441402%2040.8125H14.3086L25.1777%2026.6133L37.5996%2040.8125H44.5039L28.4004%2022.4043L45.3828%200.1875H31.1641L21.3496%2013.166L9.99218%200.1875ZM12.4141%2036.6914H8.5957L33.2441%204.09375H37.3457L12.4141%2036.6914Z'%20fill='black'/%3e%3c/svg%3e" alt="">
+        <img src="data:image/svg+xml,%3csvg%20width='50'%20height='45'%20viewBox='0%200%2050%2045'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M25.0112%2011.2695C17.913%2011.2695%2012.1875%2016.2793%2012.1875%2022.4902C12.1875%2028.7012%2017.913%2033.7109%2025.0112%2033.7109C32.1094%2033.7109%2037.8348%2028.7012%2037.8348%2022.4902C37.8348%2016.2793%2032.1094%2011.2695%2025.0112%2011.2695ZM25.0112%2029.7852C20.4241%2029.7852%2016.6741%2026.5137%2016.6741%2022.4902C16.6741%2018.4668%2020.413%2015.1953%2025.0112%2015.1953C29.6094%2015.1953%2033.3482%2018.4668%2033.3482%2022.4902C33.3482%2026.5137%2029.5982%2029.7852%2025.0112%2029.7852ZM41.3505%2010.8105C41.3505%2012.2656%2040.0112%2013.4277%2038.3594%2013.4277C36.6964%2013.4277%2035.3683%2012.2559%2035.3683%2010.8105C35.3683%209.36523%2036.7076%208.19336%2038.3594%208.19336C40.0112%208.19336%2041.3505%209.36523%2041.3505%2010.8105ZM49.8438%2013.4668C49.654%209.96094%2048.7388%206.85547%2045.8036%204.29687C42.8795%201.73828%2039.3304%200.9375%2035.3237%200.761719C31.1942%200.556641%2018.817%200.556641%2014.6875%200.761719C10.692%200.927734%207.14287%201.72852%204.2076%204.28711C1.27233%206.8457%200.368312%209.95117%200.167419%2013.457C-0.0669556%2017.0703%20-0.0669556%2027.9004%200.167419%2031.5137C0.357152%2035.0195%201.27233%2038.125%204.2076%2040.6836C7.14287%2043.2422%2010.6808%2044.043%2014.6875%2044.2187C18.817%2044.4238%2031.1942%2044.4238%2035.3237%2044.2187C39.3304%2044.0527%2042.8795%2043.2519%2045.8036%2040.6836C48.7277%2038.125%2049.6429%2035.0195%2049.8438%2031.5137C50.0781%2027.9004%2050.0781%2017.0801%2049.8438%2013.4668ZM44.5089%2035.3906C43.6384%2037.3047%2041.9531%2038.7793%2039.7545%2039.5508C36.4621%2040.6934%2028.6496%2040.4297%2025.0112%2040.4297C21.3728%2040.4297%2013.5491%2040.6836%2010.2679%2039.5508C8.08037%2038.7891%206.3951%2037.3144%205.5134%2035.3906C4.2076%2032.5098%204.50894%2025.6738%204.50894%2022.4902C4.50894%2019.3066%204.21876%2012.4609%205.5134%209.58984C6.38394%207.67578%208.0692%206.20117%2010.2679%205.42969C13.5603%204.28711%2021.3728%204.55078%2025.0112%204.55078C28.6496%204.55078%2036.4732%204.29687%2039.7545%205.42969C41.942%206.19141%2043.6272%207.66601%2044.5089%209.58984C45.8147%2012.4707%2045.5134%2019.3066%2045.5134%2022.4902C45.5134%2025.6738%2045.8147%2032.5195%2044.5089%2035.3906Z'%20fill='black'/%3e%3c/svg%3e" alt="">
+      </div>
+    </div>
+  </footer>
+  <div id="app"></div>
+</body>
+
 </html>

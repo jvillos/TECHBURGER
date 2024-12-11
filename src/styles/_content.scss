@@ -1,9 +1,91 @@
-//aquí desarrollaré el main con sus secciones
 @use "globals" as *;
+@use "mixins" as *;
 
-.portada{
-    background-image: url(../assets/img/portada.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.portada {
+  background-image: url(../assets/img/portada.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: $color-portada-h2;
+  padding: 50px 20px;
+  width: 100%;
+
+  h1 {
+    font-size: $size-h1-rem;
+    line-height: $lineheight-h1-rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: $size-h3-rem;
+    margin-bottom: 3rem;
+  }
+
+  .container {
+    background-color: $bg-portada-opacity;
+    padding: 30px;
+    border-radius: $angle1-rem;
+    display: inline-block;
+    margin: 20px auto;
+    max-width: $container-width;
+    color: $primary-black;
+
+    p {
+      margin-bottom: 20px;
+    }
+  }
+
+  @include respond-to(medium) {
+    padding: 40px 15px;
+
+    h1 {
+      font-size: $size-h1-rem * 0.9;
+    }
+
+    h3 {
+      font-size: $size-h3-rem * 0.9;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 90%; // Adjust container width
+    }
+  }
+
+  @include respond-to(small) {
+    padding: 30px 10px;
+
+    h1 {
+      font-size: $size-h2-rem;
+    }
+
+    h3 {
+      font-size: $size-h3-rem * 0.8;
+    }
+
+    .container {
+      padding: 15px;
+      max-width: 100%; // Full-width on small screens
+    }
+  }
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 0;
+
+  @include respond-to(medium) {
+    gap: 15px;
+    padding: 15px 0;
+  }
+
+  @include respond-to(small) {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 }

@@ -12,10 +12,10 @@
 <body>
   <header>
     <div class="container">
-      <div><img src="assets/img/logo-grande.png" alt="" width=""></div>
+      <div><img src="assets/img/logo-grande.png" alt="" width="200px"></div>
       <nav>
         <ul>
-          <li><a href="index.html"><img src="assets/icons/home.svg" alt=""> INICIO</a></li>
+          <li><a href="index.html"><!--<img src="assets/icons/home.svg" alt="">--> INICIO</a></li>
           <li><a href="#">CARTA</a></li>
           <li><a href="formulario.html">REGISTRO</a></li>
           <li><a href="#"><button class="btn btn-naranja">PEDIR A DOMICILIO</button></a></li>
@@ -23,47 +23,53 @@
       </nav>
     </div>
   </header>
-  <main class="container">
+  <main>
     <!-- Portada -->
     <section class="portada">
-      <h1>
-        ¡PRUEBA NUESTRAS HAMBUERGUESAS!
-      </h1>
+      <h1>¡PRUEBA NUESTRAS <br>HAMBUERGUESAS!</h1>
       <div class="container">
-        <p>¿Estás listo para probar la mejor hamburguesa de la ciudad? En TechBurger llevamos tu experiencia al
+        <h3>¿Estás listo para probar la mejor hamburguesa de la ciudad? En TechBurger llevamos tu experiencia al
           siguiente nivel. Nuestras hamburguesas están hechas con carne 100% de res, ingredientes frescos y una
-          combinación de sabores irresistibles que te harán volver por más.</p>
+          combinación de sabores irresistibles que te harán volver por más.</h3>
         <a href="#"><button class="btn btn-naranja">DÓNDE ENCONTRARNOS</button></a>
       </div>
+
+
     </section>
 
     <!-- Cards -->
-    <section>
+    <section class="cards-container">
       <div class="card">
         <img src="assets/img/card1.jpg" alt="" />
-        <h4>Vacuno de vacas felices</h4>
-        <p>Carne de la mejor calidad procedente de las praderas asturianas. ¡No probaras carne igual! El bienestar del
-          animal es fundamental para conseguir un buen sabor.</p>
-        <a href="#"><button class="btn btn-naranja">SABER MAS</button></a>
+        <h3>Vacuno de vacas felices</h3>
+        <div class="card-text">
+          <p>Carne de la mejor calidad procedente de las praderas asturianas. ¡No probaras carne igual! El bienestar del
+            animal es fundamental para conseguir un buen sabor.</p>
+          <a href="#"><button class="btn btn-naranja">SABER MAS</button></a>
+        </div>
       </div>
       <div class="card">
         <img src="assets/img/card2.jpg" alt="" />
-        <h4>Nuevas aperturas</h4>
-        <p>Encuéntranos en Toledo, Madrid, Segovia, Cuenca y Leganés. ¡Ven a visitarnos! Próximamente nos podrás
-          encontrar en Lugo y Gijón. ¡No esperes más!</p>
+        <div class="card-text">
+          <h3>Nuevas aperturas</h3>
+          <p>Encuéntranos en Toledo, Madrid, Segovia, Cuenca y Leganés. ¡Ven a visitarnos! Próximamente nos podrás
+            encontrar en Lugo y Gijón. ¡No esperes más!</p>
           <a href="#"><button class="btn btn-naranja">SABER MAS</button></a>
+        </div>
       </div>
       <div class="card">
         <img src="assets/img/card3.jpg" alt="" />
-        <h4>¡Nueva TechTechBurger!</h4>
-        <p>Prueba nuestra nueva hamburguesa TechTechBurger. ¡Ahora más tech que nunca!</p>
-        <a href="#"><button class="btn btn-naranja">SABER MAS</button></a>
+        <div class="card-text">
+          <h3>¡Nueva TechTechBurger!</h3>
+          <p>Prueba nuestra nueva hamburguesa TechTechBurger. ¡Ahora más tech que nunca!</p>
+          <a href="#"><button class="btn btn-naranja">SABER MAS</button></a>
+        </div>
       </div>
     </section>
   </main>
   <footer>
     <div>
-
+      <a href=""><img src="assets/img/Logo.png" alt=""></a>
     </div>
     <div>
       <div><a href="#"><button class="btn btn-naranja">SABER MAS</button></a></div>

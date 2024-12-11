@@ -1,7 +1,39 @@
 /*este scss es para el layout general*/
 @use "globals" as *;
 
-header{
+header {
     background-color: $primary-black;
-    
+    padding: 10px 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @include respond-to(small) {
+            flex-direction: column;
+        }
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        ul {
+            display: flex;
+            gap: 20px;
+
+            @include respond-to(small) {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: $primary-white;
+            text-decoration: none;
+        }
+    }
 }
