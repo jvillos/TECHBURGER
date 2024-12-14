@@ -4,6 +4,7 @@ Proyecto hamburguesería Techburger hecho con html, sass y vite.
 ![Muestra web](src/assets/img/image.png)
 
 ## Enlaces a la web:
+[Enlace a proyecto en github](https://github.com/jvillos/TECHBURGER/)
 
 [Enlace a proyecto en github pages](https://jvillos.github.io/TECHBURGER/)
 
