@@ -1,6 +1,6 @@
 # TechBurger - Página Web de Hamburguesería
 
-TechBurger es una página web para una hamburguesería ficticia. El proyecto utiliza Vite para un entorno de desarrollo moderno y rápido, junto con SASS para estilización avanzada y responsiva. Este sitio incluye secciones que destacan productos, servicios y ubicaciones de la marca.
+Soy Juan Villoslada Jiménez y este es mi proyecto. TechBurger es una página web para una hamburguesería ficticia. El proyecto utiliza Vite para un entorno de desarrollo moderno y rápido, junto con SASS para estilización avanzada y responsiva. Este sitio incluye secciones que destacan productos, servicios y ubicaciones de la marca.
 
 ![Muestra web](src/assets/img/image.png)
 
